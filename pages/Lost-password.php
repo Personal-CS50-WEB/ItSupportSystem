@@ -23,10 +23,10 @@
         <h2>Reset Password</h2>
         <hr></hr>
         <!-- form sends lostPassword as a value of emailType -->
-        <form action="send-email.php" method="GET">
+        <form action="Send-email.php" method="GET">
             <input class="input-field" type="text" name="emailType" value="lostPassword">
             <input class="btn-blue" name="submit" type="submit" value="Submit">
         </form>
-        <h4><a href="./problem.php">Back</a></h4>
+        <h4><a href="./Problem.php">Back</a></h4>
     </main>
     <?php include('../includes/footer.html'); ?>

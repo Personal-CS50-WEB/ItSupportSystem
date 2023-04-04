@@ -23,6 +23,6 @@
         </hr>
         <!-- render gif -->
         <img src="../Img/giphy.gif" alt="not working" loading="lazy">
-        <h4><a href="./problem.php">Back</a></h4>
+        <h4><a href="./Problem.php">Back</a></h4>
     </main>
     <?php include('../includes/footer.html'); ?>

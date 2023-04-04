@@ -43,16 +43,16 @@
 
             // if admin: render the admin's link
             if ($_SESSION['role'] == "Admin") {
-                printf('<h3><a href="./new-account.php">Create new account</a></h3>');
+                printf('<h3><a href="./New-account.php">Create new account</a></h3>');
 
                 // if manager: render the manager's link
             } else if ($_SESSION['role'] == "Manager") {
-                printf('<h3><a href="./lost-password.php">Reset your password</a></h3>');
+                printf('<h3><a href="./Lost-password.php">Reset your password</a></h3>');
             }
 
             // if CEO : render the CEO's link
             else {
-                printf('<h3><a href="./need-help.php">Need help</a></h3>');
+                printf('<h3><a href="./Need-help.php">Need help</a></h3>');
             }
         }
         ?>

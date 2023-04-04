@@ -16,6 +16,8 @@
     <main class='paddingTop'>
 
         <h2>You are signed out</h2>
+        
         <h3><a href="./index.php">Back to homepage</a></h3>
     </main>
+    
     <?php include('../includes/footer.html'); ?>

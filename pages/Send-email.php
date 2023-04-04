@@ -21,7 +21,7 @@
         <?php
         // if emailType = newAccount
         if (isset($_GET['emailType']) && $_GET['emailType'] == "newAccount") {
-            printf('<h2>New account created!</h2>');
+            printf('<h2>Create New account !</h2>');
         }
         // if emailType = lostPassword
         else if (isset($_GET['emailType']) && $_GET['emailType'] == "lostPassword") {
@@ -29,7 +29,7 @@
         } else {
             printf('<h2 class="wrong">Something went wrong!</h2>');
         }
-        printf('<h3><a href="./problem.php">Back</a></h3>');
+        printf('<h3><a href="./Problem.php">Back</a></h3>');
         ?>
     </main>
     <?php include('../includes/footer.html'); ?>

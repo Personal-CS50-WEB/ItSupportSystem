@@ -20,7 +20,7 @@ session_start();
 
 <!-- creating side navbar -->
 <aside id="sidenav">
-    <a href="/ItSupportSystem">Home</a>
+    <a href="./">Home</a>
     <a href="#">Book Tripe</a>
     <a href="/ItSupportSystem/pages/index.php" >Admin Login</a>
 </aside>
