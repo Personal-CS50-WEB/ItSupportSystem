@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>Halifax Canoe and Kayak</title>
     <meta charset='utf-8'>
@@ -15,7 +14,6 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src='./js/main.js'></script>
 </head>
-
 <body>
     <?php include('./includes/header.php'); ?>
 

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>Lost Password</title>
     <?php include('../includes/head.html'); ?>
@@ -17,7 +16,8 @@
     } 
     else if ($_SESSION["role"] != "Manager") {
         header('Location: ./problem.php');
-    } ?>
+    } 
+    ?>
 
     <main class='paddingTop'>
         <h2>Reset Password</h2>

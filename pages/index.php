@@ -5,11 +5,16 @@
     <title>Halifax Canoe and Kayak</title>
     <?php include('../includes/head.html'); ?>
 </head>
+
 <body>
     <!-- include header -->
     <?php include('../includes/header.php');
+    
     // include logout button if any user logged in
-    include('../includes/logoutbutton.php'); 
+    include('../includes/logoutbutton.php');
+    if (isset($_GET['message'])) {
+        printf("<h4>" .$_GET['message']. "</h4>");
+    }
     ?>
 
     <section>
@@ -33,5 +38,11 @@
                 </select>
                 <input class="btn-blue" name="submit" type="submit" value="Submit">
             </form>
+            <?php
+            if (isset($_SESSION['errorMessage'])) {
+                printf('<br><small class="wrong">' . $_SESSION['errorMessage'] . '</small>');
+                $_SESSION['errorMessage'] = '';
+            }
+            ?>
     </section>
     <?php include('../includes/footer.html'); ?>

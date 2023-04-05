@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>Send Email</title>
     <?php include('../includes/head.html'); ?>
 </head>
-
 <body>
     <!-- include header -->
     <?php include('../includes/header.php');
@@ -20,11 +18,11 @@
     <main>
         <?php
         // if emailType = newAccount
-        if (isset($_GET['emailType']) && $_GET['emailType'] == "newAccount") {
+        if (isset($_GET['emailType']) && trim($_GET['emailType']) == "newAccount") {
             printf('<h2>Create New account !</h2>');
         }
         // if emailType = lostPassword
-        else if (isset($_GET['emailType']) && $_GET['emailType'] == "lostPassword") {
+        else if (isset($_GET['emailType']) && trim($_GET['emailType']) == "lostPassword") {
             printf('<h2>Password reset!</h2>');
         } else {
             printf('<h2 class="wrong">Something went wrong!</h2>');

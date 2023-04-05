@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>Create New Account</title>
     <?php include('../includes/head.html'); ?>

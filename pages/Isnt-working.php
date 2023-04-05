@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>Is not working</title>
     <?php include('../includes/head.html'); ?>
 </head>
-
 <body>
     <!-- include header -->
     <?php include('../includes/header.php');
@@ -15,7 +13,8 @@
     // check if not logged in redirect to index page
     if (!isset($_SESSION["role"])) {
         header('Location: ./index.php');
-    } ?>
+    } 
+    ?>
 
     <main class='paddingTop'>
         <h2>Your Computer Is Not working</h2>
