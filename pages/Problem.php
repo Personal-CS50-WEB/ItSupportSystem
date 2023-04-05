@@ -41,6 +41,11 @@
                 $_SESSION['errorMessage'] = $_SESSION['errorMessage'] . " " . "Last name missing";
                 $_SESSION['role'] = null;
             }
+            if (!in_array($_SESSION['role'], ["Admin", "CEO", "Manager"])) {
+                $formComplete = false;
+                $_SESSION['errorMessage'] = $_SESSION['errorMessage'] . " " . "Role missing";
+                $_SESSION['role'] = null;
+            }
         }
 
         // include logout button if any user logged in

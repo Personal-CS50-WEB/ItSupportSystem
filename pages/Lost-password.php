@@ -15,7 +15,7 @@
         header('Location: ./index.php');
     } 
     else if ($_SESSION["role"] != "Manager") {
-        header('Location: ./problem.php');
+        header('Location: ./Problem.php');
     } 
     ?>
 

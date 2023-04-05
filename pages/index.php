@@ -21,7 +21,7 @@
         <!-- form for logging in -->
         <div class="container">
             <h2>Welcome To Your IT Support System</h2>
-            <form action="problem.php" method="POST">
+            <form action="Problem.php" method="POST">
                 <select name="title" class="input-field" id="title">
                     <option value="" disabled selected>Title</option>
                     <option value="Mr.">Mr.</option>

@@ -17,7 +17,7 @@
         header('Location: ./index.php');
     } 
     else if ($_SESSION["role"] != "CEO") {
-        header('Location: ./problem.php');
+        header('Location: ./Problem.php');
     } ?>
     ?>
     <main class='paddingTop'>
