@@ -19,11 +19,11 @@
         <?php
         // if emailType = newAccount
         if (isset($_GET['emailType']) && trim($_GET['emailType']) == "newAccount") {
-            printf('<h2>Create New account !</h2>');
+            printf('<h3>You sent email for:</h3><h2>Create New account !</h2>');
         }
         // if emailType = lostPassword
         else if (isset($_GET['emailType']) && trim($_GET['emailType']) == "lostPassword") {
-            printf('<h2>Password reset!</h2>');
+            printf('<h3>You sent email for:</h3><h2>Reset Password!</h2>');
         } else {
             printf('<h2 class="wrong">Something went wrong!</h2>');
         }

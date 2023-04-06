@@ -23,10 +23,8 @@
         <hr></hr>
         <!-- form sends newAccount as a value of emailType -->
         <form action="Send-email.php" method="GET">
-
-            <input class="input-field" type="text" name="emailType" value="newAccount">
-
-            <input class="btn-blue" name="submit" type="submit" value="Submit">
+            <label style="font-weight: bold;">Send email for:</label>
+            <input class="btn-blue" name="emailType" type="submit" value="newAccount">
         </form>
         <h4><a href="./Problem.php">Back</a></h4>
     </main>
